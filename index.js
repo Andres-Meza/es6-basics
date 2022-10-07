@@ -51,9 +51,9 @@ materias.push({
 
 console.log( materias )
 
-console.log( "------------BORRAR---------".red )
-materias.splice(3)
-console.log(materias)
+// console.log( "------------BORRAR---------".red )
+// materias.splice(3)
+// console.log(materias)
 
 console.log( "------------ACTUALIZAR---------".red )
 materias.forEach( function(materia) {

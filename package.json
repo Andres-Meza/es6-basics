@@ -1,5 +1,5 @@
 {
-  "type": "module",
+  "type": "commonjs",
   "name": "es6-basic",
   "version": "1.0.0",
   "description": "es6 proyect",
@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon API/paises.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,8 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "request": "^2.88.2",
+    "xmlhttprequest": "^1.8.0"
   }
 }

@@ -3,14 +3,13 @@
 
 let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
-let endpoint = 'https://goweather.herokuapp.com/weather/Colombia';
+let endpoint = 'https://pokeapi.co/api/v2/pokemon/';
 
 const exito = (response) => {
-  const elements = JSON.parse(response).forecast;
+  const elements = JSON.parse(response).results;
   elements.forEach(element => {
-    console.log(`Dia: ${element.day}`);
-    console.log(`Temperatura: ${element.temperature}`);
-    console.log(`Viento: ${element.wind}`);
+    console.log(`Pokemon: ${element.name}`);
+    console.log(`Url: ${element.url}`);
     console.log("-----------------------------------")
   });
 }

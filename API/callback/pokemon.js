@@ -3,7 +3,7 @@
 
 let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
-let endpoint = 'https://goweather.herokuapp.com/weather/Colombia';
+let endpoint = 'https://pokeapi.co/api/v2/pokemon/';
 
 function exito(reponse){
   console.log(JSON.parse(reponse));

@@ -28,7 +28,9 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
+    "axios": "^1.1.2",
     "colors": "^1.4.0",
+    "needle": "^3.1.0",
     "node-fetch": "^3.2.10",
     "request": "^2.88.2",
     "xmlhttprequest": "^1.8.0"
